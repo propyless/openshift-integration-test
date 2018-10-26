@@ -7,7 +7,7 @@ Below is a example on how to run the integration test with a dotnet s2i image an
 ./integ-test.sh -H https://web.ocp.local:8443 -c $HOME/.kube/integ_config -a "dotnet~https://github.com/redhat-developer/s2i-dotnetcore-ex.git#dotnetcore-1.1" --context_dir app --app_name integ-test -L .
 
 *Cavecats*:
-If a template is used, it should be made sure that the name of the build and service be set to $APPLICATION_NAME
+If a template is used, it should be made sure that the name of the build and service be set to $APPLICATION_NAME.
 
 
 ### Help Output
