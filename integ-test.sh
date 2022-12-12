@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # Integration testing Openshift Environment.
-# Written in Bash as the OC commands do so much extra
-# which isn't done by the API so its simpler to use the OC CLI
-# rather than rewrite all the functionality required.
 
 function unknown {
   local message="${@}"
